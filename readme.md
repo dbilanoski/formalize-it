@@ -26,7 +26,7 @@ A Chrome browser extension which inserts a magic button to your Gmail compose/re
 
 ## Screenshots
 
-![Example screenshot](./assets/screenshot.jpg)
+![Example screenshot](screenshot.jpg)
 
 ## Technologies
 
