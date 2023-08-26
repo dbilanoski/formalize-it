@@ -1,0 +1,29 @@
+{
+  "name": "FormalizeIt",
+  "description": "Gmail addon to help with text formalization using OpenAI.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "assets/envelope-solid.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/envelope-solid.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "css": [
+        "css/gmail-content.css"
+      ],
+      "js": [
+        "js/gmail-content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}

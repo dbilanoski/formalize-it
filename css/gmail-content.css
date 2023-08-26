@@ -1,0 +1,61 @@
+.magic-button-container {
+  cursor: pointer;
+  width: max-content;
+
+  height: 35px;
+  position: absolute;
+  z-index: 2;
+  right: 1rem;
+  top: 1rem;
+}
+
+.magic-button-icon {
+  color: #37393a;
+  transition: all 0.2s linear;
+  width: 35px;
+  height: 35px;
+}
+
+/* Button style on api arror */
+.magic-button-icon.error {
+  color: darkred;
+}
+
+.magic-button-icon:hover,
+.magic-button-icon:focus {
+  background-color: rgba(110, 110, 110, 0.35);
+  border-radius: 50%;
+  transform: rotate(5deg);
+  scale: 0.85;
+}
+
+
+/* Loading animation */
+/* Thanks to https://loading.io/css/ */
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 4px;
+  border-radius: 50%;
+  border: 6px solid #37393A;
+  border-color: #37393A transparent #37393A transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
