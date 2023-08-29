@@ -24,6 +24,8 @@ A Chrome browser extension which inserts a magic button to your Gmail compose/re
 4. Click on the extension icon under Chrome extensions and configuration pop-up will appear. Paste your API key there.
 5. You are good to go. On each email compose/reply windows, a "magic wand" button will appear. To convert your text, highlight it, then click the magic button.
 
+Project showcase video available [here](https://youtu.be/Hers3jv2r4w).
+
 ## Screenshots
 
 ![Example screenshot](screenshot.png)
@@ -31,7 +33,7 @@ A Chrome browser extension which inserts a magic button to your Gmail compose/re
 ## Technologies
 
 - Plain JavaScript, CSS3, HTML5
-- OpenAI API with davinci-003 model for text conversion
+- OpenAI API with text-davinci-003 model for text conversion
 - Chrome storage API for light data persistance
 
 ## Chrome Store Link
